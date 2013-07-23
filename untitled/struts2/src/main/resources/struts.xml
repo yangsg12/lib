@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="struts-default.xml"/>
+    <package name="com.yang.struts2" extends="struts-default" >
+        <!--<action name="List" class="user.actions.UserAction" method="listUser">-->
+            <!--<result name="success">/user/listUser.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="Edit" class="user.actions.UserAction" method="simpleUser">-->
+            <!--<result name="success">/user/editUser.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="Delete" class="user.actions.UserAction" method="removeUser">-->
+            <!--<result name="success" type="redirect">List.action</result>-->
+        <!--</action>-->
+        <!--<action name="Store" class="user.actions.UserAction" method="storeUser">-->
+            <!--<result name="success" type="redirect">List.action</result>-->
+        <!--</action>-->
+
+
+
+    </package>
+
+
+
+</struts>
